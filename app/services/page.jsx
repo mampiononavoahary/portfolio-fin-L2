@@ -37,10 +37,9 @@ const services = [
 import { motion } from 'framer-motion'
 
 const Services = () => {
-  return( <section>
+  return<section>
      <div className="container mx-auto">services page</div>
   </section>
-  );
 }
 
 export default Services
