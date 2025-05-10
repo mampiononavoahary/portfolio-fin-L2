@@ -52,7 +52,7 @@ const Services = () => {
                 text-transparent group-hover:text-outline-hover 
                 transition-all duration-500'>{service.num}</div>
 
-                <Link href={service.href}className='w-[70px] h-[70px] rounded-full bg-white 
+                <Link href={service.href}className='w-[50px] h-[50px] rounded-full bg-white 
                 group-hover:bg-accent transition-all duration-500 flex 
                 justify-center items-center hover:-rotate-45'>
 

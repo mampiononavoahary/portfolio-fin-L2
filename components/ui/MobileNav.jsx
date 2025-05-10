@@ -7,25 +7,25 @@ import {CiMenuFries} from 'react-icons/ci'
 
 const links = [
     {
-        name:'home',
-        path: '/'
+        name: "Accueil",
+        path:"/"
     },
     {
-        name:'services',
-        path: '/services'
+        name: "A propos",
+        path:"/services"
     },
     {
-        name:'resume',
-        path: '/resume'
+        name: "Compétance",
+        path:"/resume"
     },
     {
-        name:'work',
-        path: '/work'
+        name: "Projets",
+        path:"/work"
     },
     {
-        name:'contact',
-        path: '/contact'
-    },
+        name: "contact",
+        path:"/contact"
+    }
 ]
 const MobileNav = () => {
     const pathname = usePathname();
